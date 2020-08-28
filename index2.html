@@ -61,6 +61,78 @@
         <dd>-Bánh mì</dd>
     </dl>
     <hr>
+    <!--The target attribute specifies where to open the linked document.
+
+    The target attribute can have one of the following values:
+
+    _self - Default. Opens the document in the same window/tab as it was clicked
+    _blank - Opens the document in a new window or tab
+    _parent - Opens the document in the parent frame
+    _top - Opens the document in the full body of the window-->
+    <a href="index.html" target="_blank">link nè nhấn đi</a>
+    <br>
+    <a href="index.html">
+        <img src="CodeLearn_certification.png" alt="Bằng khen"
+            width="350" height="200">
+    </a>
+    <hr>
+
+    <iframe src="index.html" title="description"  height="500" width="600"
+        frameborder="1">
+    </iframe>
+    <hr>
+
+    <form>
+        <label for="fname">First name:</label><br>
+        <input type="text" id="fname" name="fname"><br>
+        <label for="lname">Last name:</label><br>
+        <input type="text" id="lname" name="lname">
+    </form>
     
+    <form>
+        <h2>Đây là radio nè</h2>
+        <input type="radio" id="male" name="gender" value="male" checked>
+        <label for="male">Male</label><br>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label><br>
+        <input type="radio" id="other" name="gender" value="other">
+        <label for="other">Other</label>
+        <br>
+        <h2>Đây là select nè</h2>
+        <label for="car">Chosse a car:</label>
+        <select name="cars" id="cars">
+            <option value="volvo">Volvo</option>
+            <option value="saab">Saab</option>
+            <option value="audi">Audi</option>
+        </select>
+    </form>
+    <h2>Đây là checkbox nè</h2>
+    <form>
+        <input type="checkbox" name="phuongtien1" id="phuongtien1" value="bike">
+        <label for="phuongtien1">I have a bike</label><br>
+        <input type="checkbox" name="phuongtien2" id="phuongtien2" value="car">
+        <label for="phuongtien2">I have a car</label><br>
+        <input type="checkbox" name="phuongtien3" id="phuongtien3" value="boat">
+        <label for="phuongtien3">I have a boat</label>
+    </form>
+    <h2>Đây là textarea nè</h2>
+    <textarea name="message" id="message" cols="30" rows="10"></textarea>
+    <h2>Đây là fieldset nè </h2>
+    <form action="">
+        <fieldset style="width:200px">
+            <legend>Đăng nhập:</legend>
+            <label for="email">Email:</label><br>
+            <input type="text" name="email" id="email"><br>
+            <label for="password">Password</label><br>
+            <input type="text" name="password" id="password"><br><br>
+            <input type="button" value="Submit">
+        </fieldset>
+    </form>
+    <h2>Chèn video youtube nè</h2>
+    <iframe width="560" height="315" 
+        src="https://www.youtube.com/embed/ySo1_loUkcQ"
+        frameborder="0" allow="accelerometer; autoplay; encrypted-media; 
+        gyroscope; picture-in-picture" allowfullscreen>
+    </iframe>
 </body>
 </html>
