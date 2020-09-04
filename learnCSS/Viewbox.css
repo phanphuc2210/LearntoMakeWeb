@@ -1,0 +1,27 @@
+#div1 {
+    width: 200px;
+    height: 500px;
+    background-color: goldenrod;
+    position: relative;
+    left: 100px;
+    top: 100px;
+    z-index: 1;
+}
+#div2 {
+    width: 200px;
+    height: 500px;
+    background-color: green;
+    position: absolute;
+    left: 400px;
+    top: 100px;
+    z-index: 2;
+}
+#div3 {
+    width: 200px;
+    height: 100px;
+    background-color: red;
+    position: fixed;
+    left: 100px;
+    top: 100px;
+    z-index: 200000;
+}
