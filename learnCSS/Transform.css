@@ -1,0 +1,117 @@
+@font-face{
+    font-family: ThucHanhFont;
+    src: url('../font/SourceCodePro-ExtraLight.ttf');
+}
+
+@font-face{
+    font-family: ThucHanhFont;
+    src: url('../font/SourceCodePro-Bold.ttf');
+    font-weight: bold;
+}
+
+body{
+    margin: 30px;
+    font-family: ThucHanhFont;
+}
+
+/*Ví dụ Transition*/
+#div1{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    transition: 1s;
+}
+#div1:hover{
+    width: 200px;
+    height: 150px;
+}
+
+/*Ví dụ về Transform 2D*/
+/*VD Translate*/
+#div2{
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+    transition: 1s;
+}
+#div2:hover{
+    transform: translate(50px,100px);
+}
+
+/*VD Rotate*/
+#div3{
+    width: 100px;
+    height: 100px;
+    background-color: brown;
+    transition: 1s;
+}
+#div3:hover{
+    transform: rotate(45deg);
+}
+
+/*VD Scale*/
+#div4{
+    width: 100px;
+    height: 100px;
+    background-color: cadetblue;
+    transition: 1s;
+}
+#div4:hover{
+    transform: scale(2,2);
+}
+
+/*>VD Skew*/
+#div5{
+    width: 100px;
+    height: 100px;
+    background-color: chartreuse;
+    transition: 1s;
+}
+#div5:hover{
+    transform: skew(20deg,30deg);
+}
+
+/*Transform 3D*/
+/*RotateX , RotateY*/
+#div6{
+    width: 100px;
+    height: 100px;
+    background-color: darkviolet;
+    transition: 1s;
+}
+#div6:hover{
+    transform: rotateX(45deg) rotateY(30deg);
+}
+
+/*RotateX , RotateY , RotateZ*/
+#div7{
+    width: 100px;
+    height: 100px;
+    background-color: darkviolet;
+    transition: 1s;
+}
+#div7:hover{
+    transform: rotateX(45deg) rotateY(30deg) rotateZ(45deg);
+}
+
+/*RotateX*/
+#div8{
+    width: 100px;
+    height: 100px;
+    background-color: darkviolet;
+    transition: 1s;
+}
+#div8:hover{
+    transform: rotateX(45deg);
+}
+
+/*Rotate3D*/
+#div9{
+    width: 100px;
+    height: 100px;
+    background-color: darkviolet;
+    transition: 1s;
+}
+#div9:hover{
+    transform: rotate3d(1,0,1,45deg);
+}
