@@ -1,0 +1,36 @@
+.page {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    margin: 32px 0 32px 0;
+}
+
+.page-item {
+    font-size: 1.8rem;
+    margin: 0 18px;
+}
+
+.page-item:hover {
+    cursor: pointer;
+}
+
+/* .page-item .page-btn {
+
+} */
+
+.page-item .page-number {
+    display: block;
+    min-width: 40px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    border-radius: 50px;
+}
+
+.page-item .page-number:hover,
+.page-item .page-number.active 
+{
+    background-color: #343a40;
+    color: #fff !important;
+}
